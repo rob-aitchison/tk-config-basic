@@ -22,6 +22,8 @@ includes:
 - includes/photoshopcc/shot.yml
 - includes/aftereffects/shot.yml
 - includes/3dsmax/shot.yml
+- includes/alias/shot.yml
+- includes/vred/shot.yml
 - includes/shotgun/all.yml
 
 engines:
@@ -35,4 +37,6 @@ engines:
   tk-photoshopcc: '@photoshopcc.shot'
   tk-aftereffects: '@aftereffects.shot'
   tk-3dsmaxplus: '@3dsmax.shot'
+  tk-alias: '@alias.shot'
+  tk-vred: '@vred.shot'
   tk-shotgun: '@shotgun.all'
